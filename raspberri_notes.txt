@@ -32,3 +32,7 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
     > raspivid -o /home/pi/video.h264
  -> To run h264 video
     > omxplayer /home/pi/video.h264
+    
+ -> install dbus 
+    > sudo pip3 install bluedot
+    > sudo apt install  python3-dbus
