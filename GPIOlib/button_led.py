@@ -9,4 +9,6 @@ button = Button(2) ## Button positive to GPIO2 and negative to GND of Raspberri
 button.when_pressed =led.on
 button.when_released = led.off
 
+#led.source = button  # This is not working
+
 pause()
