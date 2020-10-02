@@ -7,6 +7,6 @@ def say_hello():
 
 button = Button(2)  # connect +Ve terminal of button to GPIO2 and -Ve of button to GND of raspberri 
 
-button.when_pressed = say_hello
+button.when_pressed = say_hello  ## be careful not use say_hello()
 
 pause()
