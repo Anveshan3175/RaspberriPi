@@ -4,9 +4,9 @@ from signal import pause
 from picamera import PiCamera
 
 
-left_button = Button(2) 
-right_button = Button(3)
-camera = PiCamera()
+left_button = Button(2) # Connect button to GPIO2
+right_button = Button(3) # Connect button to GPIO3
+camera = PiCamera() # Make blue strip of camera to USB ports
 
 
 def capture():
