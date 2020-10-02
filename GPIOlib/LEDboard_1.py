@@ -3,7 +3,7 @@ from time import sleep
 from signal import pause
 
 
-leds = LEDBoard(5,6,13,19,26) 
+leds = LEDBoard(5,6,13,19,26)  #GPIO5,GPIO6,GPIO13,GPIO19,GPIO26
 
 
 leds.on()
