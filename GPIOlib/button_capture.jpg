@@ -1,0 +1,17 @@
+from gpiozero import Button
+from picamera import PiCamera
+from datetime import datetime
+from signal import pause
+
+
+button = Button(2) # Connect button to GPIO2
+camera = PiCamera() # Connect camera such that blue faces usb ports
+
+
+def capture():
+    timestamp = datetime.now().isoformat()
+    camera.capture('/home/pi/GPIOlib/%s.jpg' % timestamp)
+
+button.when_pressed = capture
+
+pause()
