@@ -27,7 +27,6 @@ def move(pos):
 def stop():
     robot.stop()
 
-
 bd.when_pressed = move
 bd.when_moved = move
 bd.when_released = stop
