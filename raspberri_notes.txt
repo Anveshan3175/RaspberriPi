@@ -36,3 +36,4 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
  -> install dbus 
     > sudo pip3 install bluedot
     > sudo apt install  python3-dbus
+    > sudo pip3 install bluedot --upgrade
