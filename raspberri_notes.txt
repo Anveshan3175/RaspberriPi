@@ -32,6 +32,11 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
     > raspivid -o /home/pi/video.h264
  -> To run h264 video
     > omxplayer /home/pi/video.h264
+ -> To stream camera to vnc
+    -> In the Pie, open VNCserver dialogue on the right-top menu 
+    -> In the dialogue, there is dropdown in the rightmost-top
+    -> Select options from it
+    -> VNC options > troubleshooting and enable "experimental direct capture mode", then you'll be able to view the camera preview image over the vnc connection
     
  -> install dbus 
     > sudo pip3 install bluedot
