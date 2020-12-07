@@ -42,3 +42,6 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
     > sudo pip3 install bluedot
     > sudo apt install  python3-dbus
     > sudo pip3 install bluedot --upgrade
+ -------------------------------------------------------------------------------------------------------------------------------------
+When talking about voltages and the Raspberry Pi, any input that is approximately below 1.8V is considered off and anything above 1.8V is considered on. For output, 0V is off and 3.3V is on.
+ -------------------------------------------------------------------------------------------------------------------------------------
