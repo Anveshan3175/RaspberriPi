@@ -1,1 +1,14 @@
-
+Go to https://github.com/ccrisan/motioneyeos
+Right side of the page, there will be "Releases" link. Click on it.
+Download Raspberri pi image. like this - motioneyeos-raspberrypi3-20200606.img.xz
+Using etcher software, etch it on micro sd
+Plug the Micro SD into Raspberri and boot it
+First boot, we need ETHERNET cable. Then only MOtionEYEOS will boot
+Default user : admin
+Default password : <null>
+open IPscanner tool in windows laptop (RASPBERRI PI AND WINDOWS LAPTION SHOULD BE IN SAME NETWORK..SAME WIFI)
+Do search on IPs
+The hostname starting with  MEYE-...   is the motioneyeos host
+Take that IP and put it in browser. You can see camera preview. You can adjust to see biggere preview
+Better login to change settings admin/<null>
+Now enable wireless network. Give wifi credentials.Take out ethernet cable from pi. Reboot it. Your raspberri should now connect to wifi.
