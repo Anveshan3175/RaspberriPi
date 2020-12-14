@@ -45,3 +45,8 @@ https://projects.raspberrypi.org/en/projects/raspberry-pi-setting-up/3
  -------------------------------------------------------------------------------------------------------------------------------------
 When talking about voltages and the Raspberry Pi, any input that is approximately below 1.8V is considered off and anything above 1.8V is considered on. For output, 0V is off and 3.3V is on.
  -------------------------------------------------------------------------------------------------------------------------------------
+-> Installation softwares involved
+   -> Raspberi pi imager - to install Raspberri pi OS to micro SD
+   -> Etcher - To install MotionEyeOS on to micro SD
+   -> SD Foratter - To format micro SD
+   -> Angry IP Scanner - To scan Pi IP when it is installed with MotionEyeOS
