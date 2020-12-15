@@ -12,3 +12,11 @@ The hostname starting with  MEYE-...   is the motioneyeos host
 Take that IP and put it in browser. You can see camera preview. You can adjust to see biggere preview
 Better login to change settings admin/<null>
 Now enable wireless network. Give wifi credentials.Take out ethernet cable from pi. Reboot it. Your raspberri should now connect to wifi.
+
+Port Forwarding
+----------------
+1. Get the ip of your wifi router.
+    - Go to cmd and type ipconfig. Scoop the "Default Gateway" address and put in the browser.
+    - Ex http://192.168.1.1/
+2. Wifi configuration page can have authentication. For DSL-224, try user/user
+3.
