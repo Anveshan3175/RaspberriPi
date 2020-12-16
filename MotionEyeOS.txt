@@ -18,5 +18,5 @@ Port Forwarding
 1. Get the ip of your wifi router.
     - Go to cmd and type ipconfig. Scoop the "Default Gateway" address and put in the browser.
     - Ex http://192.168.1.1/
-2. Wifi configuration page can have authentication. For DSL-224, try user/user
+2. Wifi configuration page can have authentication. For DSL-224, try admin/7035972010  user/user
 3.
