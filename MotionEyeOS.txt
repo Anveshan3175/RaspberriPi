@@ -20,3 +20,43 @@ Port Forwarding
     - Ex http://192.168.1.1/
 2. Wifi configuration page can have authentication. For DSL-224, try admin/7035972010  user/user
 3.
+
+
+Wifi Preconfiguration
+----------------
+https://github.com/ccrisan/motioneyeos/wiki/Wifi-Preconfiguration
+
+Preconfiguring wifi is useful for loading wifi credentials into a device that does not have an Ethernet port, like the Raspberry Pi Zero or Raspberry Pi Zero W.
+
+Wifi can only be preconfigured before the first time device boots i.e. /boot/wpa_supplicant.conf is only read once the first time device boots up. If you have booted the device with no wpa_supplicant.conf file or invalid wpa_supplicant.conf file, then you'll need to either reflash the SD card or overwrite the /data/etc/wpa_supplicant.conf file.
+
+Note: Starting from version 20190119, Wifi configuration will be read every time the device boots up i.e. existing Wifi configuration will be overwritten if /boot/wpa_supplicant.conf exists. This means there is no need to reflash the SD card if you did not get the /boot/wpa_supplicant.conf correct the first time.
+
+From Windows
+ -> Write the image to your microSD card using BalenaEtcher.
+ -> Open Windows Explorer and browse to your drive containing the microSD card. You should see files such as:
+       . bootcode.bin
+       . loader.bin
+       . start.elf
+       . kernel.img
+       . cmdline.txt
+ -> Right-click in the right window pane and select New Text Document.
+ -> Now, right click on this file and rename it wpa_supplicant.conf. Make sure to remove the .txt file extension.
+ -> Once again, right click on this file and select Edit with Notepad++.
+ -> Make sure you set the EOL conversion to UNIX LineFeeds (Edit-->EOL Conversion-->Unix LF).
+ -> Paste the following contents into your blank file 
+
+country=IN
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+    scan_ssid=1
+    ssid="Anveshan"
+    psk="anveshan"
+}
+       
+Change the country code to the country in which this device is currently operating. You can get the list of country codes - https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+-> Save the file. Eject your microSD card safely.
+       
+       
