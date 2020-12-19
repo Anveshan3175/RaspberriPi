@@ -33,13 +33,13 @@ SD Card 4
       key_mgmt=WPA-PSK
   }
   
-  
+-> Network details  
 static IP -  192.168.1.101/24
 Network Mask - 255.255.255.0
 Default Gateway - 192.168.1.1
 DNS Server - 8.8.8.8    (google)
 
-
+-> http://192.168.1.101/   to see camera UI
 
 
 
