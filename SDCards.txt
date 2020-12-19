@@ -1,1 +1,51 @@
 
+SD Card 1
+---------------------------
+
+
+
+SD Card 2
+---------------------------
+
+
+
+
+
+
+SD Card 3
+---------------------------
+
+
+
+
+SD Card 4
+---------------------------
+-> MotioneyeOS is etched
+-> wpa_supplicant.conf   is added onto SD
+   
+  ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+  update_config=1
+  country=US
+
+  network={
+      ssid="ssid"
+      psk="password"
+      key_mgmt=WPA-PSK
+  }
+  
+  
+static IP -  192.168.1.101/24
+Network Mask - 255.255.255.0
+Default Gateway - 192.168.1.1
+DNS Server - 8.8.8.8    (google)
+
+
+
+
+
+SD Card 5
+---------------------------
+
+
+
+
