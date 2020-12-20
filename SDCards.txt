@@ -39,7 +39,8 @@ Network Mask - 255.255.255.0
 Default Gateway - 192.168.1.1
 DNS Server - 8.8.8.8    (google)
 
--> http://192.168.1.101/   to see camera UI
+-> http://192.168.1.101/   to see camera UI within router network
+-> http://122.175.19.131/  to see camera UI from internet
 
 
 
