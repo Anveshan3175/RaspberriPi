@@ -22,11 +22,14 @@ Port Forwarding
 Steps are in here - https://portforward.com/d-link/dsl-224/
 3. Click on the User-defined Service Name radio button. Then, type in a name for this forward in the User-defined Service Name box. Choose a name that will help you remember why this forward was set up since it does not effect the functionality of the forward.
 4. Select the protocol type of the ports that you are forwarding from the Protocol dropdown box. If your router has the option of Both, then go ahead and select that. Otherwise select either TCP or UDP as needed. If you need to forward a port for both TCP and UDP but your router does not have Both, then you will need to create two entries.
+** Do for TCP and UDP.Make 2 entries.
 5. Go ahead and leave WAN Setting on Interface, then choose any from the WAN Interface drop down list.
 6. If you are forwarding a single port number, enter it into the WAN Port box. If you are forwarding a range of ports, enter the lowest number of that range into the WAN Port box followed by a colon followed by the largest number. For example a range of port numbers might look like this: 1000:2000.
 7. Enter the exact same values that you put in the WAN Port box, into the LAN Port box.
 8. In the LAN IP Address box, enter the IP address that you want ports forwarded to. This may be the IP address of your computer or the IP address of another device on your network that you want to forward ports to.
 9. When you are completely finished, click the Add button at the bottom of the page to apply these changes.
+10. Advanced -> Network Tools ->  UpnP -> Enable rasio button.
+11. Maintenance -> Save And Reboot
 
 
 
