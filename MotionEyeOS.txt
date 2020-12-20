@@ -30,6 +30,8 @@ Steps are in here - https://portforward.com/d-link/dsl-224/
 9. When you are completely finished, click the Add button at the bottom of the page to apply these changes.
 10. Advanced -> Network Tools ->  UpnP -> Enable rasio button.
 11. Maintenance -> Save And Reboot
+12. If we use 80 port, we don't have to mention port
+To see camera UI from internet - http://122.175.19.131/
 
 
 
